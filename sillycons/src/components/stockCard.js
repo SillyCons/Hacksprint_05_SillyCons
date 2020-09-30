@@ -34,7 +34,7 @@ class StockCard extends React.Component {
               "method": "GET",
               "headers": {
                   "x-rapidapi-host": "apidojo-yahoo-finance-v1.p.rapidapi.com",
-                  "x-rapidapi-key": ""
+                  "x-rapidapi-key": "no-key-yet"
               }
           })
               .then(res => res.json())
